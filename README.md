@@ -207,15 +207,15 @@
 
 ```json
   {
-    'style': '',
-    'id': 2,
-    'blocks': [
+    "style": "",
+    "id": 2,
+    "blocks": [
       {
-        'content': {
-          'content': 'content',
-          'title': 'hello'
+        "content": {
+          "content": "content",
+          "title": "hello"
         },
-        'type': 'card'
+        "type": "card"
       }
     ]
   }
