@@ -319,6 +319,7 @@ V:|~[circle1..5]~|          // center all circles vertically
  - DSL 布局生成器：https://github.com/ijzerenhein/autolayout.js/
  - 可视化数据流编辑器：https://github.com/Gregwar/blocks.js
  - 基于 React 的内容生成器：https://github.com/vigetlabs/colonel-kurtz
+ - 无需编写代码 生成简单CRUD后台：https://github.com/Tefact/tefact-saas
 
 参考资料：
 
