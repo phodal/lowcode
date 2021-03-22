@@ -311,6 +311,33 @@ V:|~[circle1..5]~|          // center all circles vertically
  2. UI 构建完后，生成对应的 DSL，目前采用的是 JSON。毕竟数据结构是最简单的领域特定语言。
  3. 借由 Angular Schematics 解析这部分的 DSL，来生成相应的项目代码。
 
+## FAQ
+
+### 接入传统后端
+
+#### 代理人 —— 代码生成模式
+
+对于传统的后端应用而言，在生成前端部分的同时，只需要为后端应用生成一个服务，或者一个模块/组件的代码（controller-xx-xx），又或者是单个代码文件。如：
+
+
+```java
+@RestController
+class ThisWillActuallyRun {
+
+    @RequestMapping("/")
+    String home() {
+        return "Hello, World!"
+    }
+
+}
+````
+
+这时，只需要生成一个接口，然后默认返回所需要的数据，类似于一个 Mock server。
+
+类似的库有：[https://github.com/square/javapoet](https://github.com/square/javapoet)
+
+
+
 ## 其它
 
 相关开源项目：
